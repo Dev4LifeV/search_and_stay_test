@@ -4,24 +4,24 @@ This is a CRUD app that manage house rules.
 
 Looks like a simple CRUD app, but it is not.
 
-This application was built using Flutter/Dart, Android/Kotlin and iOS/Swift. Every API handling (except Google authentication) is being managed by its respective native side (Swift, in case of iOS, and Kotlin in case of Android).
+This application was built using Flutter/Dart, Android/Kotlin, and iOS/Swift. Except for Google authentication, every API handling is managed by its respective native side (Swift for iOS and Kotlin for Android).
 
-Thanks to Flutter MethodChannels (to get acquainted of more details, visit <a href=https://docs.flutter.dev/development/platform-integration/platform-channels>Writing custom platform-specific code</a>), Flutter can communicate to the native sides to send and receive data through separate channels. That means you can have different channels for different API handling (e.g. one for biometrics, one for camera, etc). 
+Thanks to Flutter MethodChannels (to learn more, visit <a href=https://docs.flutter.dev/development/platform-integration/platform-channels>Writing custom platform-specific code</a>), Flutter can communicate with the native sides to send and receive data through separate channels. This means that you can have different channels for different API handling (e.g., one for biometrics, one for the camera, etc.).
 
-The motivation to build this application is to showcase Flutter working with native APIs through MethodChannels and demonstrate the articulation of my skills within the framework.
+The motivation for building this application is to showcase Flutter's ability to work with native APIs through MethodChannels and demonstrate my skills within the framework.
 
 <h1>Getting started</h1>
 
-- To test in iOS devices, check if you are using a MacOS system to build and run the app properly.
+- To test on iOS devices, ensure that you are using a macOS system to build and run the app properly.
 
-- Look if you have an Integrated Development Environment with Flutter enabled (IDE; Visual Studio Code, Android Studio, etc) installed properly on your machine.
+- Check if you have an Integrated Development Environment with Flutter enabled (such as Visual Studio Code, Android Studio, etc.) installed properly on your machine.
 
-- Open a terminal and run <code>git -v</code> to look for Git is set up.
+- Open a terminal and run <code>git -v</code> to check if Git is set up.
 
-- On the same terminal, run <code>flutter doctor</code> to see whether Flutter is installed and configured accordingly in your system. If not, you can follow the step-by-step documentation <a href="https://docs.flutter.dev/get-started">here</a>.
+- On the same terminal, run <code>flutter doctor</code> to see whether Flutter is installed and configured properly on your system. If not, you can follow the step-by-step documentation <a href="https://docs.flutter.dev/get-started">here</a>.
 
-- Clone the repository through CLI (<code>git clone https://github.com/Dev4LifeV/search_and_stay_test</code>) or through <a href="x-github-client://openRepo/https://github.com/Dev4LifeV/search_and_stay_test">GitHub Desktop</a> and place in your favorite directory.
+- Clone the repository through the CLI (<code>git clone https://github.com/Dev4LifeV/search_and_stay_test</code>) or through <a href="x-github-client://openRepo/https://github.com/Dev4LifeV/search_and_stay_test">GitHub Desktop</a> and place it in your favorite directory.
 
-- Open your IDE and locate for the project folder.
+- Open your IDE and locate the project folder.
 
-- Then start the project by selecting in which system (iOS or Android device) do you want to build and run through your IDE.
+- Then, start the project by selecting which system (iOS or Android device) you want to build and run through your IDE.
