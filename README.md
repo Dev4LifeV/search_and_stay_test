@@ -1,3 +1,5 @@
+https://user-images.githubusercontent.com/59589002/235559713-8456b1a1-ad74-4554-84a7-3a54e8dcbf63.mp4
+
 <h1>Search and Stay Test</h1>
 
 This is a CRUD app that manage house rules.
